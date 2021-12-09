@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<conio.h>
 #include <time.h>
-
+// #define timedelay 2
 void welcome();
 void opetions();
 void sumTwodigit();
@@ -42,18 +42,22 @@ void opetions(){
     scanf("%d",&input);
     if (input==1)
     {
+        system("cls");
         sumTwodigit();
     }
     else if (input==2)
     {
+        system("cls");
         subTwodigit();
     }
     else if (input==3)
     {
+        system("cls");
         mulTwodigit();
     }
     else if (input==4)
     {
+        system("cls");
         divTwodigit();
     }
     else if (input==5)
