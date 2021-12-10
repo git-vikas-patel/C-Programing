@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<conio.h>
 #include <time.h>
+
 // #define timedelay 2
 void welcome();
 void opetions();
@@ -77,7 +78,7 @@ void sumTwodigit(){
     printf("Enter First Number:");
     scanf("%f",&a);
     printf("Enter Second Number:");
-    scanf("%f",&b);
+    scanf("%f",&b);    
     printf("The Addition of %f and %f is : %.2f\n\n\n",a,b,a+b);
     delay(1);    
     opetions();
@@ -123,6 +124,5 @@ void delay(int number_of_seconds)
     clock_t start_time = clock();
   
     // looping till required time is not achieved
-    while (clock() < start_time + milli_seconds)
-        ;
+    while (clock() < start_time + milli_seconds);
 }
