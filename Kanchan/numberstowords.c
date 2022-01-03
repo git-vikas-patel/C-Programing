@@ -8,9 +8,7 @@ int main()
     printf("Enter Number to convert into word :");
     scanf("%s", number);
     while (number[i] != '\0')
-    {
-        // printf("%c\n", number[i]);
-       
+    {       
         switch (number[i])
         {
         case '0':
